@@ -7,7 +7,7 @@ var url = "mongodb://Bepul:Bepul@cluster0-shard-00-00-lo1zs.mongodb.net:27017,cl
 
 
 router.get('/', (req, res, next) => {
-	//console.log('ok');
+	console.log('ok');
 	MongoClient.connect(url, function(err, db) {
 		
 		if (err) throw err;

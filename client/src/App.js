@@ -9,7 +9,7 @@ class App extends React.Component {
       bestShows: []
     };
   }
-  
+
 
   componentDidMount() {
     console.log("componentDidMount success")
@@ -27,6 +27,7 @@ class App extends React.Component {
     return (
       <div>
         azure-mern-demo
+        Yes
         <ul>
           {
             Object.keys(this.state.bestShows).map((cur, idx) => (
